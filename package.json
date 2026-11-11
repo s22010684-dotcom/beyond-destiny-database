@@ -1,17 +1,14 @@
 {
   "name": "beyond-destiny-db",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Database management and scripts for Beyond Destiny Post-Wedding Workflow System",
+  "type": "module",
+  "main": "db.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node db_test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "dotenv": "^18.0.9",
-    "pg": "^8.23.1"
+    "dotenv": "^16.4.5",
+    "pg": "^8.12.0"
   }
 }
